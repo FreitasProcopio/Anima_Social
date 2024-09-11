@@ -1,0 +1,28 @@
+
+/* ------------------------------------------------ */
+.header_login {
+    width: 500px;
+    height: 1px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#img_entrar {
+    display: none;
+    background-image: url("../img/entrar.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 520px;
+    width: 400px;
+    height: 400px;
+}
+
+/* ---------------------------------------------------- */
+
+#letter3:hover, #proximo:hover {
+    opacity: 1;
+    transition: 0.8s;
+    background-color: #ffffff;
+}
+
+/* ---------------------------------------------------- */

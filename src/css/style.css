@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header_inicial {
+    width: 300px;
+    height: 1px;
+}
+
+.pginicial {
+    background: #d9dcd7;  
+}
+
+#img_anima {
+    position: absolute;
+    margin-left: 575px;
+    margin-top: 160px;
+    width: 200px;
+    height: 200px;
+}
+/*-------- bottons start ----------- */
+
+#bottom {
+    justify-content: center;
+    flex-flow: column wrap;
+    display: flex;
+    margin-left: 620px;
+    margin-top: 420px;
+    width: 400px;
+}
+
+#entrar {
+    border: 2px solid #6f9c54;
+    opacity: 0.8;
+    border-radius: 38px;
+    margin-bottom: 30px;
+    width: 257px;
+    height: 60px;
+}
+
+#cadastrar {
+    border: 2px solid #6f9c54;
+    opacity: 0.8;
+    border-radius: 38px;
+    width: 257px;
+    height: 60px;
+}
+
+#letter1 {
+    font-family: "League Spartan", sans-serif;
+    text-align: center;
+    color: #6F9C54;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+#letter2 {
+    font-family: "League Spartan", sans-serif;
+    text-align: center;
+    color: #6F9C54;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+
+a:link {
+    text-decoration: none;
+}
+
+#entrar:hover, #letter1:hover {
+    opacity: 2;
+    transition: 0.5s;
+}
+
+#cadastrar:hover, #letter2:hover {
+    opacity: 2;
+    transition: 0.5s;
+}
+
+/* ----------------------------- login.html ------------------------------ */
+
+.login {
+    background-color: #6F9C54;
+}
+
+.section_entrar {
+    display: block;
+    background-color: #EFEFEF;
+    border: 2px solid white;
+    border-top-right-radius: 69px;
+    border-top-left-radius: 69px;
+    margin-left:35%;
+    margin-top: 14%;
+    width: 470px;
+    height: 560px;
+}
+
+#text_entrar {
+    font-family: "League Spartan", sans-serif;
+    font-weight:600;
+    opacity: 0.9;
+    margin-top: 45px;   
+    margin-left: 15%;
+    font-size: 35px;
+    width: 40px;
+    height: 40px;
+}
+
+.email {
+    display: block;
+    flex-direction: column;
+    justify-content: left;
+    margin-top: 10%;
+    width: 200px;
+    height: 50px;
+}
+
+#email_entrar {
+    font-family: "League Spartan", sans-serif;
+    font-size: 18px;
+    margin-left: 34.2%;
+    padding: 10px 1px;
+}
+
+#input_email {
+    margin-left: 29.5%;
+    border-radius: 38px;
+    justify-content: left;
+    align-items: left;
+    text-align: center;
+    border: 1.7px solid rgb(0, 0, 0);
+    width: 330px;
+    height: 55px;
+}
+
+
+.senha {
+    display: block;
+    flex-direction: column;
+    justify-content: left;
+    margin-top: 16%;
+    width: 200px;
+    height: 50px;
+}
+
+#senha_entrar {
+    font-family: "League Spartan", sans-serif;
+    font-size: 18px;
+    margin-left: 34.2%;
+    padding: 10px 1px;
+}
+
+#input_senha {
+    margin-left: 29.5%;
+    border-radius: 38px;
+    justify-content: left;
+    align-items: left;
+    text-align: center;
+    border: 1.7px solid rgb(0, 0, 0);
+    width: 330px;
+    height: 55px;
+}
+
+#esqueci_senha {
+    font-family: "League Spartan", sans-serif;
+    text-decoration: underline;
+    text-align: center;
+    display: block;
+    margin-top: 15%;
+    margin-right: 8%;
+    color: rgb(68, 68, 68);
+}
+
+#sou_novo_aqui {
+    font-family: "League Spartan", sans-serif;
+    text-decoration: underline;
+    text-align: center;
+    display: block;
+    color: black;
+    margin-right: 8%;
+    margin-top: 4%;
+}
+
+#proximo {
+    display: block;
+    border: 1px solid #6f9c54;
+    background-color: #ffffff;
+    border-radius: 38px;
+    margin-left: 90px;
+    margin-top: 40px;
+    opacity: 0.8;
+    width: 257px;
+    height: 60px;    
+}
+
+#letter3 {
+    font-family: "League Spartan", sans-serif;
+    color:#6F9C54;
+    font-size: 18px;
+    border: none;
+    background-color: white;
+}
+
