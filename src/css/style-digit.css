@@ -111,7 +111,7 @@ button {
 button:hover {
     background-color: #45a049;
     color: white;
-    border: 1px solid black;
+    border: 1px solid rgba(0, 0, 0, 0.044);
 }
 
 
