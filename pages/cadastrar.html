@@ -3,16 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../src/css/style.css">
     <title>Document</title>
 </head>
 <body>
     <header>
-
+        <p id="text_cadastrar"> CADASTRAR </p>
     </header>
-    <main>
+    <main class="main_cadastro">
         <section class="section_cadastrar">
-
-            <p id="text_cadastrar"> CADASTRAR </p>
             <form action="cadastro_validar.php">
 
                 <label class="name_cadastrar"> 
@@ -40,9 +39,7 @@
                     <input type="email" name="email" placeholder="Insira seu e-mail de login..." id="input_email">
                 </label>
 
-                <button id="proximo"> 
-                    <input type="submit" value="PRÓXIMO" id="letter3">
-                </button>
+                <input type="submit" value="PRÓXIMO" id="letter3">
 
                 <!-- Se email e senha forem igual a 1, passsa, mas se for igual a 0, um pop-up aparece pedindo para verificar login e senha -->
             </form>
