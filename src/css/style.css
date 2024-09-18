@@ -224,3 +224,19 @@ a:link {
     color: white;
     border: 1px solid black;
 }
+
+
+/* ---------------------------- Cadastrar.html -----------------------*/
+
+.main_cadastro {
+    display: block;
+}
+.section_cadastrar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 700px;
+    height: 700px;
+    background-color: black;
+}
