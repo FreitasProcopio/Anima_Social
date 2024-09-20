@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página da Loja</title>
+  <link rel="stylesheet" href="/paginas/paginas-internas/style-tela-1.css">
+  <script>
+    function toggleMenu() {
+      const nav = document.getElementById('navMenu');
+      nav.classList.toggle('active');
+    }
+  </script>
+</head>
+<body>
+  <header>
+    <div class="hamburger" onclick="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <nav id="navMenu" class="nav-menu">
+      <ul>
+        <li><a href="#">Página Inicial</a></li>
+        <li><a href="#">Configurações</a></li>
+        <li><a href="#">Perfil</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="profile">
+      <img src="/paginas/img/The Office.jpeg" alt="Foto da pessoa">
+      <h2>Sylvana</h2>
+      <p>Período: 6º período</p>
+      <p> IBMR</p>
+    </div>
+
+    <div class="box-container">
+      <a href="#" class="box box-blue">Meus Itens</a>
+      <a href="#" class="box box-green">Doações</a>
+      <a href="#" class="box box-red">Chat</a>
+    </div>
+  </main>
+</body>
+</html>

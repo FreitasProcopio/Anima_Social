@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+body {
+    font-family: "League Spartan", sans-serif;
+    background-image: url('/paginas/img/fundo-bolinhas.png'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+main {
+    width: 100%;
+}
+
+/* Botão de voltar */
+.back-button {
+    display: block;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.back-button svg {
+    width: 20px;
+    height: 20px;
+    fill: #333;
+}
+
+.section_quase_la {
+    background: #FFFFFF;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto; /* Centraliza horizontalmente */
+}
+
+#text_quase_la {
+    font-size: 28px;
+    color: #333;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 15px;
+}
+
+#letras_left {
+    font-size: 17px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.radio_group input {
+    margin-right: 15px;
+}
+
+.radio_group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+input[type="text"] {
+    width: 70%;
+    margin-left: 50px;
+    padding: 15px;
+    border: 2px solid #000000;
+    border-radius: 30px;
+    font-size: 18px;
+    background-color: white;
+}
+
+input::placeholder {
+    color: #A0A0A0;
+    font-size: 14px;
+    text-align: center;
+}
+
+.btn {
+    width: 300px; /* Largura fixa */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    color: #4CAF50;
+    font-size: 20px;
+    border: 1px solid #4CAF50;
+    border-radius: 35px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #45a049;
+    color: white;
+    border: 2px solid black;
+}
+
+.termos {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+#checkbox_termos {
+    margin-right: 10px;
+}
+
+/* Responsividade para telas menores que 768px */
+@media (max-width: 768px) {
+    .section_quase_la {
+        padding: 25px;
+        max-width: 90%;
+    }
+    .btn {
+        width: 100%; /* Botão ocupa 100% da largura do container em telas pequenas */
+        max-width: 300px; /* Limita a largura máxima a 300px */
+        font-size: 18px;
+    }
+}
+
+/* Para telas menores que 480px (smartphones) */
+@media (max-width: 480px) {
+    .section_quase_la {
+        padding: 20px;
+        max-width: 95%;
+    }
+    .btn {
+        font-size: 16px;
+        width: 100%;
+        max-width: 300px; /* Continua a limitar a largura */
+    }
+}

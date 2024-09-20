@@ -1,0 +1,157 @@
+
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+/* Reseta margens e paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    font-family:  "League Spartan", sans-serif;
+    background-image: url('/paginas/img/fundo-bolinhas.png'); /* Verifique o caminho da imagem */
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+/* Botão de voltar */
+.back-button {
+    display: block;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.back-button svg {
+    width: 20px;
+    height: 20px;
+    fill: #333;
+}
+
+/* Contêiner principal */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Caixa de login */
+.login-box {
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 490px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 35px;
+    margin-bottom: 18px;
+}
+
+/* Campos de formulário */
+label {
+    display: block;
+    text-align: left;
+    margin-bottom: 8px;
+    font-size: 18px;
+    color: #333;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 90%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 2px solid #000;
+    border-radius: 40px;
+    font-size: 13px;
+    outline: none;
+    text-align: center;
+}
+
+/* Links */
+.links {
+    margin-bottom: 20px;
+}
+
+.link-word {
+    display: block;
+    color: #000;
+    text-decoration: none;
+    font-size: 15px;
+    margin: 5px 0;
+}
+
+.link-word:hover {
+    text-decoration: underline;
+}
+
+/* Botão de Próximo */
+.button {
+    width: 300px;
+    margin-left: 17%;
+    display: block;
+    background-color: #fff;
+    color: #4CAF50;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #4CAF50;
+    border-radius: 40px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.button:hover {
+    background-color: #4CAF50;
+    color: #fff;
+    border: 2px solid black;
+}
+
+/* Responsivo para telas pequenas */
+@media (max-width: 680px) {
+    body {
+        background-image: url('/paginas/img/fundo-rec-senha.png'); /* Verifique o caminho da imagem */
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-color: #45a049; /* Coloca cor de fundo se a imagem não carregar */
+    }
+
+    .container {
+        background-color: transparent; /* Remove a cor de fundo em dispositivos móveis */
+    }
+
+    .login-box {
+        background-color: #f1f1f1;
+        margin-top:400px;
+        
+        height: 560px;
+        width: 100%;
+    }
+    .button {
+        width: 270px;
+        margin-left: 14%;
+        display: block;
+        background-color: #fff;
+        color: #4CAF50;
+        padding: 15px;
+        text-align: center;
+        border: 1px solid #4CAF50;
+        border-radius: 40px;
+        text-decoration: none;
+        font-size: 20px;
+    }
+    
+    .button:hover {
+        background-color: #4CAF50;
+        color: #fff;
+        border: 2px solid black;
+    }
+    
+}

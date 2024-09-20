@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+
+body {
+    font-family:  "League Spartan", sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #EFEFEF;
+}
+
+.container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+}
+
+.container h1 {
+    font-size: 34px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.container p {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 28px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: 17px;
+    color: #333;
+}
+
+input[type="text"] {
+    width: 90%;
+    height: 35px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid black;
+    border-radius: 55px;
+    font-size: 14px;
+}
+
+input[type="text"]::placeholder {
+    color: #aaa;
+    text-align: center;
+}
+
+.back-button {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    color: #333;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.back-button svg {
+    width: 30px;
+    height: 20px;
+    fill: #333;
+}
+
+.back-button span {
+    margin-left: 5px;
+}
+
+.resend-code {
+    margin-bottom: 20px;
+}
+
+.resend-code a {
+    color: #333;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.resend-code a:hover {
+    text-decoration: underline;
+}
+
+button {
+    width: 300px;
+    padding: 12px;
+    background-color: white;
+    color: #4CAF50;
+    font-size: 25px;
+    border: 1px solid #4CAF50;
+    border-radius: 55px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+    color: white;
+    border: 1px solid black;
+}
+
+
+@media (max-width: 480px) {
+    .container {
+        margin-top: 90px;
+        background-color: #EFEFEF;
+        box-shadow: 0 0 0 ;
+        width: 100%;
+        max-width: 400px;
+        padding: 10px;
+    }
+
+    .container h1 {
+        font-size: 30px;
+    }
+
+    .container p {
+        font-size: 14px;
+    }
+
+    input[type="text"] {
+        width: 90%;
+        height: 35px;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: 2px solid black;
+        border-radius: 50px;
+        font-size: 14px;
+    }
+
+    .back-button {
+        font-size: 12px;
+    }
+
+    .back-button svg {
+        width: 16px;
+        height: 16px;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 8px;
+    }
+    button {
+        width: 200px;
+        padding: 12px;
+        background-color: white;
+        color: #4CAF50;
+        font-size: 25px;
+        border: 1px solid #4CAF50;
+        border-radius: 55px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    button:hover {
+        background-color: #45a049;
+        color: white;
+        border: 1px solid black;
+    }
+    
+}

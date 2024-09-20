@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-cadastro.css">
+    <title>Página de cadastro</title>
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+    
+        <section class="section_cadastrar">
+            <a href="/paginas/login/pg-inicial.html" class="back-button">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+                </svg>
+            </a>
+
+            <p id="text_cadastrar"> CADASTRAR </p>
+            <form action="cadastro_validar.php">
+
+                <label class="name_cadastrar"> 
+                    <p id="letras_left"> NOME: </p>
+                    <input type="name" name="name_cadastro" placeholder="Insira seu nome completo..." id="input_nome">
+                </label>
+
+                <label class="nascimento_cadastrar"> 
+                    <p id="letras_left"> DATA DE NASCIMENTO: </p>
+                    <input type="date" name="nascimento_cadastro" placeholder="Insira sua data de nascimento..." id="input_nascimento">
+                </label>
+
+                <label class="email_cadastrar"> 
+                    <p id="letras_left"> EMAIL </p>
+                    <input type="email" name="email_cadastro" placeholder="Insira seu e-mail de login..." id="input_email">
+                </label>
+                
+                <label class="senha_cadastrar"> 
+                    <p id="letras_left"> SENHA: </p>
+                    <input type="password" name="senha_cadastro" placeholder="Insira seu e-mail de login..." id="input_email">
+                </label>
+
+                <label class="email"> 
+                    <p id="letras_left"> CONFIRMAR SENHA: </p>
+                    <input type="email" name="email" placeholder="Insira seu e-mail de login..." id="input_email">
+                </label>
+
+                 <a href="/paginas/cadastro/cadastro-2.html" class="btn">PRÓXIMO</a>
+
+                <!-- Se email e senha forem igual a 1, passsa, mas se for igual a 0, um pop-up aparece pedindo para verificar login e senha -->
+            </form>
+        </section>
+    </main>
+</body>
+</html>

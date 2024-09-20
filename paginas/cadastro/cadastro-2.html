@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quase Lá!</title>
+    <link rel="stylesheet" href="style-cadastro-2.css">
+    <script src="/paginas/cadastro/script-cadastro-2.js" defer></script>
+</head>
+<body>
+    <main>    
+        <section class="section_quase_la">
+            <p id="text_quase_la"> QUASE LÁ! </p>
+            <form id="formCadastro" onsubmit="return validarFormulario(event)">
+
+                <label class="cor_etnia"> 
+                    <p id="letras_left"> COR/ETNIA: </p>
+                    <div class="radio_group">
+                        <input type="radio" name="cor" value="negro"> Negro
+                        <input type="radio" name="cor" value="pardo"> Pardo
+                        <input type="radio" name="cor" value="amarelo"> Amarelo
+                        <input type="radio" name="cor" value="branco"> Branco
+                        <input type="radio" name="cor" value="indigena"> Indígena
+                        <input type="radio" name="cor" value="outro"> Outro...
+                    </div>
+                </label>
+
+                <label class="renda_familiar"> 
+                    <p id="letras_left"> RENDA FAMILIAR: </p>
+                    <div class="radio_group">
+                        <input type="radio" name="renda" value="1">  1 salário
+                        <input type="radio" name="renda" value="1a2"> 1 a 2 salários
+                        <input type="radio" name="renda" value="2a5"> 2 a 3 salários
+                        <input type="radio" name="renda" value=">5"> + 5 salários
+                    </div>
+                </label>
+
+                <label class="genero"> 
+                    <p id="letras_left"> GÊNERO: </p>
+                    <input type="text" name="genero" placeholder="Insira o seu gênero..." id="input_genero">
+                </label>
+
+                <label class="sexualidade"> 
+                    <p id="letras_left"> SEXUALIDADE: </p>
+                    <input type="text" name="sexualidade" placeholder="Insira sua sexualidade..." id="input_sexualidade">
+                </label>
+
+                <label class="estado_civil"> 
+                    <p id="letras_left"> ESTADO CIVIL: </p>
+                    <input type="text" name="estado_civil" placeholder="Insira o seu estado civil..." id="input_estado_civil">
+                </label>
+
+                <label class="termos">
+                    <input type="checkbox" name="termos" id="checkbox_termos">
+                    Eu li e concordo com os termos de uso do aplicativo
+                </label>
+
+               
+                <a href="/paginas/login/login.html" class="btn">PRÓXIMO</a>
+
+            </form>
+        </section>
+    </main>
+</body>
+</html>
