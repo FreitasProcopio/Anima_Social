@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Cadastro</title>
+    <link rel="stylesheet" href="../../src/css/cadastro-itens.css">
+    <script src="../../src/js/cadastro-itens.JS"></script>
+    
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="navbar">
+      
+        <div class="logo">Ânima Social</div>
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+        <ul>
+            <li><a href="/pages/paginas-internas/tela-1.html">Página Central</a></li>
+            <li><a href="/pages/configuracoes/config-menu.html">Configurações</a></li>
+            <li><a href="/pages/explorar/explorar.html">Explorar</a></li>
+            <li><a href="#">Perfil</a></li>
+            <li><a href="#">Chat</a></li>
+        </ul>
+    </div>
+
+    <!-- Menu lateral -->
+    <div class="sidebar" id="sidebar">
+        <ul>                 
+            <li><a href="/pages/paginas-internas/tela-1.html">Página Central</a></li>
+            <li><a href="/pages/configuracoes/config-menu.html">Configurações</a></li>
+            <li><a href="/pages/explorar/explorar.html">Explorar</a></li>
+            <li><a href="#">Perfil</a></li>
+            <li><a href="#">Chat</a></li>
+        </ul>
+    </div>
+
+    <div class="container">
+    
+        <main>
+            <h1>Cadastro</h1>
+
+            <form id="cadastro-form">
+                <div class="form-group" >
+                    <label for="categoria">CATEGORIA</label>
+                    <select id="categoria" name="categoria">
+                        <option>Selecione uma categoria</option>
+                        <option value="vestuario">Vestuário</option>
+                        <option value="livro">Livro</option>
+                        <option value="eletronico">Eletrônico</option>
+                        <option value="outros">Outros</option>
+                        
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="status">STATUS</label>
+                    <select id="status" name="status">
+                        <option>Selecione o status do item</option>
+                        <option>Novo</option>
+                        <option>Usado</option>
+                       
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="descricao">DESCRIÇÃO</label>
+                    <input type="text" id="descricao" name="descricao" placeholder="Breve descrição sobre o item">
+                </div>
+
+                <div class="form-group"> 
+                    <label for="fotos">FOTOS</label>
+                                <!-- Botão para acionar o input de upload -->
+                      <button id="fotos" class="add-photo-btn" type="button">Adicionar Fotos</button>
+                                <!-- Input para selecionar o arquivo de foto -->
+                      <input type="file" id="file-input" accept="image/*" multiple style="display: none;">
+                             <!-- Preview das fotos selecionadas -->
+                    <div id="preview"></div>
+                </div>
+
+                <div class="form-group">
+                    <label for="localizacao">LOCALIZAÇÃO</label>
+                    <select id="localizacao" name="localizacao">
+                        <option>Selecione o campus para troca</option>
+                        <option>Barra da Tijuca</option>
+                        <option>Botafogo</option>
+                        <option>Catete</option>
+                        
+                    </select>
+
+                    <a href="#" class="btn" id="btn-proximo">CADASTRAR</a>
+
+                </div>
+            </form>
+        </main>
+    </div>
+
+
+</body>
+</html>
