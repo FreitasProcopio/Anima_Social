@@ -144,7 +144,7 @@ a:hover {
 
 @media (max-width: 480px) {
     body {
-        background: url('../../src/assets/img/fundo-rec-senha.png') no-repeat center center;
+        background: url('../assets/img/fundo-rec-senha.png') no-repeat center center;
         background-size: cover;
         background-color: #45a049;
         overflow: hidden;

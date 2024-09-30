@@ -116,7 +116,7 @@ input[type="password"] {
 /* Responsivo para telas pequenas */
 @media (max-width: 680px) {
     body {
-        background-image: url('/paginas/img/fundo-rec-senha.png'); /* Verifique o caminho da imagem */
+        background-image: url('../assets/img/fundo-rec-senha.png'); /* Verifique o caminho da imagem */
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
