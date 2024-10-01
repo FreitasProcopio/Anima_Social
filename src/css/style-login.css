@@ -73,6 +73,7 @@ input[type="password"] {
     font-size: 13px;
     outline: none;
     text-align: center;
+    align-items: left;
 }
 
 /* Links */
