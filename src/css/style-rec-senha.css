@@ -52,6 +52,7 @@ label {
     display: block;
     text-align: left;
     margin-bottom: 5px;
+    margin-left: 15px;
     font-size: 20px;
     font-family: League Spartan;
 }
@@ -59,6 +60,7 @@ label {
 input[type="email"] {
     width: 85%;
     text-align: center;
+    margin-left: -27px;
     height: 25px;
     padding: 10px;
     border-radius: 28px;
