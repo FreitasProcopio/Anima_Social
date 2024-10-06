@@ -5,7 +5,7 @@
 $servidor = 'localhost';
 $usuario = 'root';
 $senha = '';
-$bancodedados = 'Entrada';
+$bancodedados = 'animadb';
 
 $connection = new mysqli($servidor, $usuario, $senha, $bancodedados);
 
